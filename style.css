@@ -1,0 +1,28 @@
+canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.link{
+    font-size: 40px;
+    font-weight:  600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background: chartreuse;
+    border-radius: 10px;
+    opacity: 0;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+
+}
+.active{
+    opacity: 1 !important;
+    z-index: 10;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
